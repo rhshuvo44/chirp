@@ -59,6 +59,24 @@
   .banner-info {
     flex-direction: column;
   }
+  .banner .banner-content,
+  .banner .banner-img {
+    width: 100%;
+  }
+  .banner .banner-content {
+    padding: 50px 0px 50px 0px;
+  }
+  .banner .banner-img {
+    padding: 20px 0px 50px 0px;
+  }
+  /* service */
+  .service h2 {
+    width: 100%;
+    padding-right: 0px;
+  }
+  .service-group {
+    grid-template-columns: repeat(1, 1fr);
+  }
 }
 @media (max-width: 350px) {
   nav .logo a {
