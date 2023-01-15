@@ -81,6 +81,15 @@
   .customer-groud {
     grid-template-columns: repeat(1, 1fr);
   }
+  /* price  */
+  .price .sub-title {
+    padding: 0px ;
+    width: 100%;
+  }
+  .price-card {
+    width: 100%;
+    margin-top: 50px;
+  }
 }
 @media (max-width: 350px) {
   nav .logo a {

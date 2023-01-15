@@ -312,3 +312,51 @@ nav .cancel-icon {
 .card-footer .date {
   padding-left: 180px;
 }
+
+/* price */
+.price {
+  text-align: center;
+  padding: 50px 0px;
+}
+.price h2 {
+  font-size: 40px;
+  line-height: 1.5;
+}
+.price .sub-title {
+  padding: 0px 35px;
+  margin: 0 auto;
+  line-height: 1.5;
+}
+.price-card {
+  margin: 0 auto;
+  padding: 50px;
+  text-align: left;
+  margin-top: 50px;
+  background: #fbf8f3;
+  border: 1px solid #ffad23;
+}
+.price-card h5 {
+  display: inline-block;
+  font-size: 40px;
+  line-height: 1.5;
+}
+.price-card p {
+  display: inline-block;
+  line-height: 1.5;
+}
+.price-card .btn {
+  width: 100%;
+  margin-top: 30px;
+}
+.check-list {
+  flex-direction: column;
+  padding: 10px 0px;
+}
+.check-list li {
+  gap: 10px;
+  padding: 10px 0px;
+}
+.check-list li img {
+  width: 20px;
+  height: 20px;
+}
