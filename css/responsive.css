@@ -77,6 +77,10 @@
   .service-group {
     grid-template-columns: repeat(1, 1fr);
   }
+  /* customer  */
+  .customer-groud {
+    grid-template-columns: repeat(1, 1fr);
+  }
 }
 @media (max-width: 350px) {
   nav .logo a {
