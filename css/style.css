@@ -13,6 +13,12 @@
   --gray-color: #777776;
   --blue-color: #1da1f2;
 }
+p {
+  color: var(--gray-color);
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 1px;
+}
 a {
   text-decoration: none;
 }
@@ -30,7 +36,7 @@ img {
   object-fit: cover;
 }
 .container {
-  width: 85%;
+  width: 90%;
   margin: 0 auto;
 }
 .w-75 {
@@ -77,6 +83,7 @@ nav {
   justify-content: space-between;
   height: 100px;
   padding: 0 100px;
+  background: #fbf8f3;
 }
 .logo a {
   color: var(--blue-color);
@@ -123,4 +130,93 @@ nav .cancel-icon {
 nav .menu-icon span,
 nav .cancel-icon {
   display: none;
+}
+/* banner section start  */
+.banner {
+  background: #fbf8f3;
+}
+.banner .banner-content {
+  padding: 50px 20px 50px 0px;
+}
+.banner .banner-content .learn-btn {
+  padding: 10px 20px;
+  text-transform: capitalize;
+  border: none;
+  color: #5698af;
+  background: transparent;
+  outline: 0;
+  cursor: pointer;
+  font-size: 16px;
+  line-height: 1.5;
+  font-weight: 600;
+}
+.banner .banner-content .learn-btn i {
+  font-size: 20px;
+  line-height: 1.5;
+  padding-left: 5px;
+  font-weight: 600;
+  transition: all 0.2s;
+}
+.banner .banner-content .learn-btn:hover i {
+  padding-left: 10px;
+}
+.banner .banner-content .avatar-group {
+  padding: 50px 0px;
+  position: relative;
+}
+.banner .banner-content .avatar-group .avatar-1,
+.banner .banner-content .avatar-group .avatar-2,
+.banner .banner-content .avatar-group .avatar-3,
+.banner .banner-content .avatar-group .avatar-4,
+.banner .banner-content .avatar-group .avatar-5,
+.banner .banner-content .avatar-group .avatar-6,
+.banner .banner-content .avatar-group .avatar-7,
+.banner .banner-content .avatar-group .avatar-8,
+.banner .banner-content .avatar-group .avatar-9 {
+  position: absolute;
+  top: 25px;
+  width: 45px;
+  height: 45px;
+  bottom: 15px;
+}
+.banner .banner-content .avatar-group .avatar-2 {
+  position: absolute;
+  left: 30px;
+  z-index: 3;
+}
+.banner .banner-content .avatar-group .avatar-3 {
+  left: 60px;
+  z-index: 4;
+}
+.banner .banner-content .avatar-group .avatar-4 {
+  left: 90px;
+  z-index: 5;
+}
+.banner .banner-content .avatar-group .avatar-5 {
+  left: 115px;
+  z-index: 6;
+}
+.banner .banner-content .avatar-group .avatar-6 {
+  left: 145px;
+  z-index: 7;
+}
+.banner .banner-content .avatar-group .avatar-7 {
+  left: 175px;
+  z-index: 8;
+}
+.banner .banner-content .avatar-group .avatar-8 {
+  left: 205px;
+  z-index: 9;
+}
+.banner .banner-content .avatar-group .avatar-9 {
+  left: 235px;
+  z-index: 10;
+}
+
+.banner .banner-img {
+  padding: 20px 0px 50px 20px;
+  height: 100%;
+}
+.banner .banner-img img {
+  height: auto;
 }
